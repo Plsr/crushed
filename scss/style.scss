@@ -4,8 +4,12 @@
 // Variables
 @import 'vars/colors';
 
-// Components
+// Base
+@import 'base';
 
+// Components
+@import 'component/c_main-nav';
+@import 'component/c_logo';
 
 // Layouts
 @import 'layout/site-header';

@@ -1,0 +1,13 @@
+.c_main-nav {
+	display: inline-block;
+	float: right;
+	padding-top: 16px;
+	padding-bottom: 16px;
+
+	a {
+		color: $textcolor;
+		font-size: 18px;
+		text-decoration: none;
+		border-bottom: 1px solid $accentcolor;
+	}
+}
