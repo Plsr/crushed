@@ -1,0 +1,15 @@
+h2.c_post-title {
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+	margin-bottom: 10px;
+
+	a {
+		text-decoration: none;
+		color: $textcolor;
+
+		&:hover {
+			color: $accentcolor;
+		}
+	}
+}

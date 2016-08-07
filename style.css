@@ -369,7 +369,8 @@ th {
   padding: 0; }
 
 body {
-  font-family: Verdana, sans-serif; }
+  font-family: Verdana, sans-serif;
+  color: #333333; }
 
 .c_main-nav {
   display: inline-block;
@@ -385,6 +386,51 @@ body {
 .c_logo {
   height: 50px;
   width: 50px; }
+
+h2.c_post-title {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-bottom: 10px; }
+  h2.c_post-title a {
+    text-decoration: none;
+    color: #333333; }
+    h2.c_post-title a:hover {
+      color: #FC354C; }
+
+.c_post-preview {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 25px; }
+  .c_post-preview p {
+    margin-top: 10px;
+    margin-bottom: 0; }
+
+.c_post-preview-meta {
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 20px; }
+  .c_post-preview-meta p {
+    margin-top: 0; }
+
+.c_preview-tags {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0px; }
+  .c_preview-tags li {
+    display: inline;
+    padding-left: 20px; }
+    .c_preview-tags li:first-child {
+      padding-left: 0; }
+    .c_preview-tags li a {
+      color: #FC354C;
+      text-decoration: none; }
+      .c_preview-tags li a:hover {
+        text-decoration: underline; }
 
 .site-header {
   background-color: #F8F8F8;
