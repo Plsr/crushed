@@ -466,7 +466,10 @@ h2.c_post-title {
 .c_img-portrait {
   border-radius: 50%;
   width: 80px;
-  border: 2px solid #FC354C; }
+  border: 2px solid #FC354C;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px; }
 
 .site-header {
   background-color: #F8F8F8;
@@ -475,3 +478,12 @@ h2.c_post-title {
   box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.16); }
   .site-header .header-content {
     padding: 20px; }
+
+.author-info {
+  background-color: #444444;
+  color: #F8F8F8;
+  font-size: 16px;
+  line-height: 23px;
+  padding: 50px 20px 50px 20px; }
+  .author-info a {
+    color: #FC354C; }
