@@ -499,3 +499,5 @@ h2.c_post-title {
   padding: 50px 20px 50px 20px; }
   .author-info a {
     color: #FC354C; }
+  .author-info p {
+    margin: 0; }
