@@ -442,6 +442,10 @@ h2.c_post-title {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 80px; }
+  .c_pagination:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .c_btn-pagination {
   box-sizing: border-box;
@@ -458,6 +462,11 @@ h2.c_post-title {
   .c_btn-pagination:last-child {
     margin-right: 0;
     float: right; }
+
+.c_img-portrait {
+  border-radius: 50%;
+  width: 80px;
+  border: 2px solid #FC354C; }
 
 .site-header {
   background-color: #F8F8F8;
