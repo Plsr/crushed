@@ -1,5 +1,5 @@
 .c_btn-pagination {
-box-sizing: border-box;
+  box-sizing: border-box;
   padding: 10px;
   border: 2px solid $dark-midgrey;
   border-radius: 4px;
@@ -14,5 +14,11 @@ box-sizing: border-box;
   &:last-child {
     margin-right: 0;
     float: right;
+  }
+
+  &:hover {
+    color: $accentcolor;
+    border: 2px solid $accentcolor;
+
   }
 }

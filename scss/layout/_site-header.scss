@@ -10,5 +10,11 @@
     @media screen and (min-width: 768px) {
       padding: 20px 40px;
     }
+
+    @media screen and (min-width: 1024px) {
+      max-width: 800px;
+      padding: 20px;
+      margin: 0 auto;
+    }
 	}
 }
