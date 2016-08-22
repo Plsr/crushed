@@ -6,5 +6,9 @@
 
 	.header-content {
 		padding: 20px;
+
+    @media screen and (min-width: 768px) {
+      padding: 20px 40px;
+    }
 	}
 }
