@@ -500,4 +500,5 @@ h2.c_post-title {
   .author-info a {
     color: #FC354C; }
   .author-info p {
-    margin: 0; }
+    margin: 0;
+    text-align: center; }
