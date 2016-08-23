@@ -507,18 +507,19 @@ h2.c_post-title {
     .content {
       margin: 60px 40px; } }
 
-.c_pagination {
+.pagination {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 80px; }
   @media screen and (min-width: 768px) {
-    .c_pagination {
-      padding: 20px 40px; } }
+    .pagination {
+      margin-left: 40px;
+      margin-right: 40px; } }
   @media screen and (min-width: 1024px) {
-    .c_pagination {
+    .pagination {
       max-width: 800px;
       margin: 0 auto; } }
-  .c_pagination:after {
+  .pagination:after {
     content: "";
     display: table;
     clear: both; }
