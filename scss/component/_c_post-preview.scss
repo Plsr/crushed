@@ -1,8 +1,4 @@
 .c_post-preview {
-	margin-top: 40px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 40px;
 	font-size: 16px;
 	line-height: 25px;
 
@@ -12,17 +8,10 @@
 	}
 
   @media screen and (min-width: 768px) {
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 60px;
   }
 
   @media screen and (min-width: 1024px) {
     max-width: 800px;
-    margin: 40px auto;
-
-    &:first-child {
-      margin-top: 60px;
-    }
+    margin: 0 auto;
   }
 }
