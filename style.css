@@ -443,22 +443,6 @@ h2.c_post-title {
       max-width: 800px;
       margin: auto; } }
 
-.c_pagination {
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 80px; }
-  @media screen and (min-width: 768px) {
-    .c_pagination {
-      padding: 20px 40px; } }
-  @media screen and (min-width: 1024px) {
-    .c_pagination {
-      max-width: 800px;
-      margin: 0 auto; } }
-  .c_pagination:after {
-    content: "";
-    display: table;
-    clear: both; }
-
 .c_btn-pagination {
   box-sizing: border-box;
   padding: 10px;
@@ -522,6 +506,22 @@ h2.c_post-title {
   @media screen and (min-width: 768px) {
     .content {
       margin: 60px 40px; } }
+
+.c_pagination {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 80px; }
+  @media screen and (min-width: 768px) {
+    .c_pagination {
+      padding: 20px 40px; } }
+  @media screen and (min-width: 1024px) {
+    .c_pagination {
+      max-width: 800px;
+      margin: 0 auto; } }
+  .c_pagination:after {
+    content: "";
+    display: table;
+    clear: both; }
 
 .author-info {
   background-color: #444444;
