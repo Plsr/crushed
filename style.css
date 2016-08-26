@@ -441,7 +441,7 @@ h2.c_post-title {
   @media screen and (min-width: 1024px) {
     .c_home-divider {
       max-width: 800px;
-      margin: auto; } }
+      margin: 40px auto; } }
 
 .c_btn-pagination {
   box-sizing: border-box;
@@ -462,16 +462,20 @@ h2.c_post-title {
     color: #FC354C;
     border: 2px solid #FC354C; }
 
+.c_author-info-content img {
+  margin-bottom: 20px; }
+
+@media screen and (min-width: 1024px) {
+  .c_author-info-content {
+    max-width: 800px;
+    margin: 0 auto; } }
+
 .c_img-portrait {
   border-radius: 50%;
   width: 80px;
   border: 2px solid #FC354C;
   display: block;
-  margin: 0 auto;
-  margin-bottom: 20px; }
-  @media screen and (min-width: 768px) {
-    .c_img-portrait {
-      margin-bottom: 0; } }
+  margin: 0 auto; }
 
 .c_page-footer {
   background-color: #FC354C;
@@ -547,7 +551,3 @@ h2.c_post-title {
         content: "";
         display: table;
         clear: both; } }
-  @media screen and (min-width: 1024px) {
-    .author-info {
-      max-width: 800px;
-      margin: 0 auto; } }
