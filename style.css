@@ -481,7 +481,8 @@ h2.c_post-title {
   @media screen and (min-width: 768px) {
     .c_author-info-content img {
       float: left;
-      margin-right: 40px; }
+      margin-right: 40px;
+      margin-bottom: 0; }
     .c_author-info-content p {
       float: left;
       max-width: 568px; }
