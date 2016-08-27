@@ -496,14 +496,14 @@ h2.c_post-title {
   display: block;
   margin: 0 auto; }
 
-.c_page-footer {
-  background-color: #FC354C;
-  padding: 20px; }
-  .c_page-footer a {
+.c_page-footer-content {
+  max-width: 800px;
+  margin: 0 auto; }
+  .c_page-footer-content a {
     color: #F8F8F8;
     font-size: 16px;
     float: right; }
-  .c_page-footer:after {
+  .c_page-footer-content:after {
     content: "";
     display: table;
     clear: both; }
@@ -555,3 +555,7 @@ h2.c_post-title {
   @media screen and (min-width: 768px) {
     .author-info {
       padding: 50px 40px; } }
+
+.page-footer {
+  background-color: #FC354C;
+  padding: 20px; }
