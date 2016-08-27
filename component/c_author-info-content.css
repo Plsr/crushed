@@ -1,6 +1,9 @@
 .c_author-info-content img {
   margin-bottom: 20px; }
 
+.c_author-info-content a {
+  color: #FC354C; }
+
 @media screen and (min-width: 1024px) {
   .c_author-info-content {
     max-width: 800px;

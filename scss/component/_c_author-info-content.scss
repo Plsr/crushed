@@ -1,0 +1,38 @@
+.c_author-info-content {
+  display: inline-block;
+  color: $lightgrey;
+  font-size: 16px;
+  line-height: 23px;
+  max-width: 800px;
+
+  img {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+  }
+
+  a {
+    color: $accentcolor;
+  }
+
+  p {
+    margin: 0;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) {
+
+    img {
+      float: left;
+      margin-right: 40px;
+    }
+
+    p {
+      float: left;
+      max-width: 568px;
+    }
+
+    @include clearfix;
+  }
+}
